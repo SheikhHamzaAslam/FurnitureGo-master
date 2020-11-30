@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_download"
+        android:orderInCategory="100"
+        android:title="@string/download" />
+
+    <item
+        android:id="@+id/item_delete"
+        android:orderInCategory="100"
+        android:title="@string/delete"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/item_Whishlist"
+        android:orderInCategory="101"
+        android:title="@string/add_to_whishlist" />
+
+    <item
+        android:id="@+id/item_remove_Whishlist"
+        android:orderInCategory="101"
+        android:title="@string/remove_from_whishlist"
+        android:visible="false" />
+
+</menu>
